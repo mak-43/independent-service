@@ -1,0 +1,8 @@
+.login{
+    background-image:
+    url('../images/lowercut\ \(1\).png'),
+    url('../images/icon.png'),
+    url('../images/scl\ \(1\).png');
+    background-position: 90% 110%,10% 50%,100% 0;
+    background-repeat: no-repeat;
+}
