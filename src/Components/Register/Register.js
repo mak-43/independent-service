@@ -12,6 +12,7 @@ const Register = () => {
     const [
         createUserWithEmailAndPassword,
         error,
+        loading
       ] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification:true});
       const [signInWithGoogle,  gerror] = useSignInWithGoogle(auth);
       const [signInWithGithub,  giterror] = useSignInWithGithub(auth);
@@ -55,6 +56,9 @@ const Register = () => {
                     </div> */}
                     <input  className='text-black bg-gray-400 font-bold py-2 submit  rounded-xl hover:text-blue-700 ' type="submit" value="Sign Up" />
                 </form>
+                {
+                    loading?'Loading':''
+                }
                 {
                     errorElement
                 }

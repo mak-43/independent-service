@@ -6,6 +6,10 @@ import google from '../images/google.png'
 import facebook from '../images/fb.png'
 import github from '../images/github.png'
 import auth from '../../firebase.init';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const Login = () => {
 
     const [
@@ -44,12 +48,18 @@ const Login = () => {
          errorElement=   <p className='text-red-700'>Error: {error?.message}{gerror?.message}{giterror?.message} </p>
       }
       const resetPassword=async()=>{
-        await sendPasswordResetEmail(email);
-          alert('Sent email');
+        if(email){
+            await sendPasswordResetEmail(email);
+          toast('Sent email');
+        }
+        else{
+            toast('Please enter your email')
+        }
       }
 
     return (
-        <div className=' login '>        
+        <div className=' login '> 
+             <ToastContainer />       
             <div className='form-container md:w-1/2 mx-auto py-10 sm:w-full'>
                 <form onSubmit={handleSubmit} className='flex flex-col w-1/2 mx-auto '>
                     <h1 className='text-3xl pb-5'>Please Login</h1>
@@ -64,7 +74,7 @@ const Login = () => {
                     errorElement
                 }
                 <p className='text-black py-4 '>New to this site ?<Link className='text-blue-700 ' to='/register'> Sign Up</Link> </p>
-                <p>Forget Password ?  <Link to=' ' className='text-blue-700' onClick={resetPassword}>Reset Password</Link> </p>
+                <p>Forget Password ?  <button  className='text-blue-700' onClick={resetPassword}>Reset Password</button> </p>
                 <div className='or flex justify-center items-center gap-2'>
                     <hr className='w-1/5' /> OR <hr className='w-1/5' />
                 </div>
