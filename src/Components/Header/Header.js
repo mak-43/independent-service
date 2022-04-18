@@ -17,12 +17,12 @@ const Header = () => {
 
 
         <div>
-            <div className='flex space-x-4 py-2  '>
-                <div    className='flex ml-20 items-center '>
+            <div className='grid lg:grid-cols-2  md:grid-cols-2 sm:grid-cols-1'>
+                <div className='flex ml-20 items-center '>
                     <img onClick={() => navigate('/')} className='h-20 cursor-pointer' src={img} alt="" />
                     <h1 onClick={() => navigate('/')} className='text-2xl font-semibold cursor-pointer'>Better Call Mak</h1>
                 </div>
-                <div className='flex gap-5    items-center'>
+                <div className='flex gap-5 justify-center   items-center'>
                     <Acitve to='/'>Home</Acitve>
                     < Acitve to='/services'>Services</Acitve>
 
@@ -40,7 +40,7 @@ const Header = () => {
 
                 </div>
                 <div>
-             
+
                 </div>
             </div>
         </div>
