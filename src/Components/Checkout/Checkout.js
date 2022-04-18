@@ -7,8 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Checkout = () => {
     const [cart,setCart]=useCart([])
     const {serviceId}=useParams()
-    let sId=serviceId
-    let t={}
+
 
     const passwordRef=useRef('')
     const emailRef=useRef('')
@@ -26,13 +25,14 @@ const Checkout = () => {
         <div>
             
             <form onSubmit={handleSubmit} className='flex flex-col w-1/2 mx-auto '>
-                <h1 className='text-3xl pb-5'>Booking Form</h1>
+                <h1 className='text-3xl pb-4'>Booking Form</h1>
+                <p className='pb-2'>Service No : {serviceId}</p>
                     <input ref={nameRef} type="text" name="text" id="" placeholder='Name' />
                     <input ref={emailRef} type="email" name="email" id="" placeholder='Email address' required />
                     <input ref={passwordRef} type="text" name="address" id="" placeholder='Address' 
                     required />
                     <input type="text" name="text" id="" placeholder='Phone number' />
-                    <textarea name=""className='ml-5 py-2'  id="" cols="30" rows="8" placeholder='Write your problem in shorts.........'></textarea>
+                    <textarea name=""className='pt-2 px-5'  id="" cols="30" rows="8" placeholder='Write your problems in shorts.........'></textarea>
                    
                     {/* <div className='flex items-center gap-2'>
                         <input onClick={()=>setAgree(!agree)} type="checkbox" name="" id="" />

@@ -1,8 +1,17 @@
 .service img{
-    width: 300px;
-    height: 250px;
+    
+   width: 400px;
+   height: 250px;
+   border-radius: 10px;
+   top: 0;
+   margin-top: 0px;
+   position: absolute;
     
 }
+ .botom{
+     position: absolute;
+     bottom: 0;
+ }
 .service:hover{
 
        
@@ -14,6 +23,12 @@
   
 }
 .service{
-    border:1px solid rgb(229, 226, 226);
-    border-radius: 18px;
+    position: relative;
+    margin: 0 auto;
+    height: 500px;
+    width: 400px;
+   border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }

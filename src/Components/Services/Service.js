@@ -6,11 +6,11 @@ const Service = ({service}) => {
     const {name,id,img,price,description}=service
     const navigate=useNavigate()
     return (
-        <div className='service flex flex-col justify-center items-center  m-10'>
+        <div className='service flex flex-col justify-center items-center  '>
             <div className='flex justify-center items-center'>
-                <img className='rounded-xl mt-2' src={img} alt="" />
+                <img className='rounded-xl mt-2 w-full h-full' src={img} alt="" />
             </div>
-            <div className='flex flex-col text-left justify-center items-center p-5'>
+            <div className='flex flex-col text-left justify-center items-center p-5 botom'>
                 <p className='text-xl font-semibold pb-3'>{name}</p>
                 <p>{description}</p>
                 <p className='text-xl font-bold'>{price}</p>
