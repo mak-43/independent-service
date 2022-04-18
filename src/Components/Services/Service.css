@@ -1,0 +1,19 @@
+.service img{
+    width: 300px;
+    height: 250px;
+    
+}
+.service:hover{
+
+       
+        border-radius: 18px;
+        background: #e8e7e9;
+        box-shadow: 29px 29px 59px #cac9cb,
+            -29px -29px 59px #ffffff;
+
+  
+}
+.service{
+    border:1px solid rgb(229, 226, 226);
+    border-radius: 18px;
+}
