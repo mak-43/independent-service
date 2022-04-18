@@ -17,12 +17,12 @@ const Header = () => {
 
 
         <div>
-            <div className='grid grid-cols-2 py-2  '>
+            <div className='flex space-x-4 py-2  '>
                 <div    className='flex ml-20 items-center '>
                     <img onClick={() => navigate('/')} className='h-20 cursor-pointer' src={img} alt="" />
                     <h1 onClick={() => navigate('/')} className='text-2xl font-semibold cursor-pointer'>Better Call Mak</h1>
                 </div>
-                <div className='flex gap-5 justify-end mr-20  items-center'>
+                <div className='flex gap-5    items-center'>
                     <Acitve to='/'>Home</Acitve>
                     < Acitve to='/services'>Services</Acitve>
 
@@ -31,12 +31,16 @@ const Header = () => {
                     <div>
                         {
                             user ?
-                                <button onClick={handleSignOut}>SignOut</button>
+                                <button className='bg-gray-200 p-2 rounded hover:text-blue-700 ' onClick={handleSignOut}>SignOut</button>
                                 :
-                                < Acitve to='/login'>Login</Acitve>
+                                < Acitve className='bg-gray-200 p-2 rounded hover:text-blue-700 ' to='/login'>Login</Acitve>
                         }
                     </div>
 
+
+                </div>
+                <div>
+             
                 </div>
             </div>
         </div>

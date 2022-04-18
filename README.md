@@ -21,7 +21,7 @@
 
 #### Technologies 
 
-* We use Firebase Hook for simplicity and user authentication 
-* Tailwind Css framework for styling html 
-* Firebase for hosting
-* React Route for creating protected route and SPA
+1. We use Firebase Hook for simplicity and user authentication 
+2. Tailwind Css framework for styling html 
+3. Firebase for hosting
+4. React Route for creating protected route and SPA
