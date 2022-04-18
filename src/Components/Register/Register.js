@@ -40,9 +40,6 @@ const Register = () => {
     return (
         <div className=' register '>
 
-            <div className='flex justify-center items-center py-10'>
-                <img className='w-1/3 ' src='' alt="" />
-            </div>
             <div className='form-container md:w-1/2 mx-auto py-10 sm:w-full'>
                 <form onSubmit={handleSubmit} className='flex flex-col w-1/2 mx-auto '>
                 <h1 className='text-3xl pb-5'>Please Sign Up</h1>

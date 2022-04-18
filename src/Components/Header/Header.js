@@ -4,7 +4,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import Acitve from '../Active/Acitve';
-import img from '../images/hmmrbk.png'
+import img from '../images/lawyer.png'
 
 const Header = () => {
     const [user] = useAuthState(auth)
@@ -14,11 +14,12 @@ const Header = () => {
     }
     return (
         <div>
-            <div className='grid grid-cols-2 py-5  '>
+            <div className='grid grid-cols-2 py-2  '>
                 <div className='flex ml-20 items-center '>
-                    <img onClick={() => navigate('/')} className='h-10' src={img} alt="" />
+                    <img onClick={() => navigate('/')} className='h-20' src={img} alt="" />
+                    <h1 className='text-2xl font-semibold'>Better Call Mak</h1>
                 </div>
-                <div className='flex gap-5 justify-end mr-20 '>
+                <div className='flex gap-5 justify-end mr-20  items-center'>
                     <Acitve to='/'>Home</Acitve>
                     < Acitve to='/services'>Services</Acitve>
 
