@@ -11,7 +11,7 @@ const Banner = () => {
         <div>
             
             <Carousel className=''>
-                <div>
+                <div className=''>
                     <img className='' src={b1} />
                     <p className="legend">We Appear When You Can't</p>
                 </div>

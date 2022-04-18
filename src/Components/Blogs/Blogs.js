@@ -39,7 +39,7 @@ const Blogs = () => {
                         1.Create a new project in console.google.com <br />
                         2.npm install firebase <br />
                         3.Create firebase.init.js and import getAuth to export auth <br />
-                    4.Firebase setting > Authentication >enable email and password <br />
+                    4.Firebase setting - Authentication -enable email and password <br />
                         5.Create login,signup Components and setup route <br />
                         6.Attach form field handler and form submit handler <br />
                         7.npm install --save react-firebase-hooks <br />

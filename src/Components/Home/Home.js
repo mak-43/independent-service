@@ -10,7 +10,7 @@ const Home = () => {
     const [cart,setCart]=useCart([])
     const navigate=useNavigate()
     return (
-        <div className=''>
+        <>
             
             <Banner></Banner>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5'>
@@ -21,10 +21,10 @@ const Home = () => {
                     ></Service>)
                 }
             </div>
-            <button className='text-black bg-gray-400 font-bold py-2 px-5 my-2 submit rounded-xl hover:text-blue-700 ' onClick={()=>navigate('/services')}>See All Services</button>
+            <button className='text-black bg-gray-400 font-bold py-2 px-5 my-2 submit rounded-xl hover:text-blue-700 ' onClick={()=>navigate('/services')}>See All Services...</button>
             <br />
             <Link to='/checkout'> Proceed Checkout</Link>
-        </div>
+        </>
     );
 };
 

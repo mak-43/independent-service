@@ -10,14 +10,14 @@
         "img":"https://i.ibb.co/bQG69r6/car.jpg",
         "name":"Car Accident",
         "description":"Sometimes life needs some reckless, chill, excitement,and hangout. Go drive and feel the life .In case of accident or trouble of police just contact us",
-        "price":"770$",
+        "price":"$770",
         "id":"2"
     },
     { 
         "img":"https://i.ibb.co/kJVwzSv/moneylaundry.jpg",
         "name":"Money laundaring",
         "description":"You are suspect for money laundaring.need black money to white .this is the best option you absolutly need",
-        "price":"900$",
+        "price":"$900",
         "id":"3"
     },
    
@@ -25,42 +25,42 @@
         "img":"https://i.ibb.co/BfQ3JyJ/family.jpg",
         "name":"Family Law",
         "description":"Family property distribution family genjam mitay ,Family politics re dholay kori also mutual among the members like bou sashuri war ",
-        "price":"750$",
+        "price":"$750",
         "id":"4"
     },
     { 
         "img":"https://i.ibb.co/88Tf4t3/capital-market.jpg",
         "name":"Capital Market",
         "description":"If you have abndont of money invest it on capital market. We are here to support all you will need to proceed ",
-        "price":"950$",
+        "price":"$950",
         "id":"5"
     },
     { 
         "img":"https://i.ibb.co/x2Vjq4f/employment.jpg",
         "name":"Employment Law",
         "description":"Company doesn't pay your payment,Doing some genjam or jamela like next month we will give you just inform us and see how the problem will be solved",
-        "price":"850$",
+        "price":"$850",
         "id":"6"
     },
     { 
         "img":"https://i.ibb.co/kJt1bft/corporate.jpg",
         "name":"Corporate",
         "description":"Corporate genjam not a silly deal and you broke some rules or stack in poltics or others .Here i am to solve the genjam .I have solved lots of genjam previous ",
-        "price":"700$",
+        "price":"$700",
         "id":"7"
     },
     { 
         "img":"https://i.ibb.co/DtV7jHH/resolutions.jpg",
         "name":"Dispute Resolution",
         "description":"t  Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare ve",
-        "price":"800$",
+        "price":"$800",
         "id":"8"
     },
     { 
         "img":"https://i.ibb.co/k9zxPBK/injury.jpg",
         "name":"Personal Injury",
         "description":"Who attack me why what's the reason? need help to figure out? that's why  here we are",
-        "price":"810$",
+        "price":"$810",
         "id":"9"
     },
    
@@ -68,14 +68,14 @@
         "img":"https://i.ibb.co/0Ch7dtJ/construction.jpg",
         "name":"Construction",
         "description":"Contrustion genjam can be happened anytime so go run any site just get the support ",
-        "price":"1000$",
+        "price":"$1000",
         "id":"10"
     },
     { 
         "img":"https://i.ibb.co/rHG5Qvy/it.jpg",
         "name":"IT",
         "description":"IT is a  intensive sensitive thing in this time as well as it's issues too .Any kind of help you will get .It needs to know you that i am a cse engineer ",
-        "price":"1200$",
+        "price":"$1200",
         "id":"11"
     }
 ]
