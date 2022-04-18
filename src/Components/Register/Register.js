@@ -54,7 +54,7 @@ const Register = () => {
                     <input  className='text-black bg-gray-400 font-bold py-2 submit  rounded-xl hover:text-blue-700 ' type="submit" value="Sign Up" />
                 </form>
                 {
-                    loading?'Loading':''
+                    loading?'Loading...':''
                 }
                 {
                     errorElement
