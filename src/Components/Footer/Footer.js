@@ -4,7 +4,7 @@ const Footer = () => {
     const today = new Date()
     const year = today.getFullYear()
     return (
-        <div className='mt-5 bottom-0 w-full mb-0 '>
+        <div className='mt-10 bottom-0 w-full mb-0 '>
             <div className=''>
                 <div className='grid md:grid-cols-2  bg-zinc-800 h-[20vh] text-white '>
                     <div className='flex items-center justify-center'>
@@ -31,7 +31,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='grid md:grid-cols-2 bg-zinc-800 text-white content-center pb-6 sm:grid-cols-1 py-10'>
+                <div className='grid md:grid-cols-2 bg-zinc-800 text-white content-center  sm:grid-cols-1 py-10'>
                     <div className=''>
                         <p><small>Copyright &copy; {year} Better Call Mak</small></p>
                     </div>

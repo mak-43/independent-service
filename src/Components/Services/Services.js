@@ -1,22 +1,19 @@
 import React, { useEffect, useState } from 'react';
+
 import Service from './Service';
+import useCart from './useCart';
 
 
 const Services = () => {
 
-    const [services,setServices]=useState([])
-    useEffect(()=>{
-        fetch('services.json')
-        .then(res=>res.json())
-        .then(data=>setServices(data))
-    },[])
-
+    const [cart,setCart]=useCart([])
+    
     return (
         <div>
             <h1 className='text-4xl font-semibold '>Legal Practices Area</h1>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5'>
                 {
-                    services.map(service=><Service
+                    cart.map(service=><Service
                     key={service.id}
                     service={service}
                     ></Service>)
