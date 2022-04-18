@@ -2,11 +2,12 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Service.css'
 
+
 const Service = ({service}) => {
     const {name,id,img,price,description}=service
     const navigate=useNavigate()
     return (
-        <div className='service flex flex-col justify-center items-center  '>
+        <div className='service flex flex-col justify-center items-center p-5 '>
             <div className='flex justify-center items-center'>
                 <img className='rounded-xl mt-2 w-full h-full' src={img} alt="" />
             </div>

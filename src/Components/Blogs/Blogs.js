@@ -29,21 +29,23 @@ const Blogs = () => {
             <AccordionItem>
                 <AccordionItemHeading>
                     <AccordionItemButton>
-                        Why  are you using firebase? What are the options do you have to implement authentication
+                        Why  are you using firebase? What others options do you have to implement authentication
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p className='text-left'>
                         Indeed, Firebase is a less technical and time-saving alternative to writing full-fledged backend code for dynamic apps.With Firebase, it's pretty simple to connect and use built-in third-party authentication providers, including Google, Facebook, Twitter, among others. And if you want to use a pre-built authentication UI, you have it at your disposal as well. <br />
                         Steps for authentication: <br />
-                        1.Create a new project in console.google.com <br />
-                        2.npm install firebase <br />
-                        3.Create firebase.init.js and import getAuth to export auth <br />
-                    4.Firebase setting - Authentication -enable email and password <br />
-                        5.Create login,signup Components and setup route <br />
-                        6.Attach form field handler and form submit handler <br />
-                        7.npm install --save react-firebase-hooks <br />
-                        8.useCreateUserWithEmailAndPassword from according to firebase hooks <br />
+                        1.Amazone cognito <br />
+                        2.oneLogin <br />
+                        3.okta <br />
+                        4.stytch <br />
+                        5.ory<br />
+                        6.supabase <br />
+                        7.pingldentity <br />
+                        8.frontegg <br />
+                        9.Authress <br />
+                        10.Auth0.
 
 
                     </p>
