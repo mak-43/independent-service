@@ -15,7 +15,9 @@
 * Landing page contain two componets banner and  short split services 
 * In services  you will see the full list of services 
 * In blogs you will see display some theoritical part
-* In about you will see ower mission,vision and goal .The way how ower achieve his goal 
+* In about you will see ower mission,vision and goal .The way how ower achieve his goal
+* In Login user can login to get access of private route name checkout 
+* If Consumer is new comer he/she can easily signup .signup link is given in the login form
 
 #### Technologies 
 
